@@ -2,7 +2,7 @@
 
 A frozen TD-MPC2 world model keeps its pretrained weights fixed. After each real transition, a small fast state is updated from the latent prediction error and read on the next prediction. Imagined MPC transitions read that state and do not write it. The fast state is reset at the start of every evaluation episode.
 
-![One real write, imagined reads, then a reset](assets/method.gif)
+![Fast plasticity mechanism](assets/fast_plasticity_mechanism.gif)
 
 ## Overview
 

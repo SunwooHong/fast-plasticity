@@ -4,6 +4,9 @@ A frozen TD-MPC2 world model keeps its pretrained weights fixed. After each real
 
 ![Fast plasticity mechanism](assets/fast_plasticity_mechanism.gif)
 
+https://github.com/user-attachments/assets/fb295e17-c987-478b-8079-73125f81f67d
+
+
 ## Overview
 
 Keyed plasticity stores a 512×64 correction. The key is a fixed random projection of the normalized latent state and commanded action (projection seed 0, columns normalized). Bias plasticity stores one shared 512-dimensional correction in the same log-SimNorm coordinates. Both use η=0.05, λ=0.001, and a norm cap of 10. A zero fast state matches the frozen dynamics. A constant-key control uses the same update with one fixed key. `tdmpc2/baselines.py` holds the online gain estimator and known-gain correction as reference utilities. They are not methods of `scripts/evaluate.py` and do not reproduce those results.

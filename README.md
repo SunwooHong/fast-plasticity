@@ -5,7 +5,7 @@ A frozen TD-MPC2 world model keeps its pretrained weights fixed. After each real
 ![Fast plasticity mechanism](assets/fast_plasticity_mechanism.gif)
 
 
-## Method Overview Video
+## Method Overview
 
 https://github.com/user-attachments/assets/fb295e17-c987-478b-8079-73125f81f67d
 

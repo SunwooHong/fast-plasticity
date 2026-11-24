@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: If you use this software, please cite the manuscript below.
+title: "Fast Plasticity Recalibrates a Frozen World Model"
+type: software
+authors:
+  - family-names: Hong
+    given-names: Sunwoo
+    affiliation: Korea Advanced Institute of Science and Technology
+  - family-names: Park
+    given-names: Chan
+    affiliation: Sungkyunkwan University
+  - family-names: Pesaranghader
+    given-names: Ali
+    affiliation: LG Corporation
+year: 2026
+license: MIT
+preferred-citation:
+  type: article
+  title: "Fast Plasticity Recalibrates a Frozen World Model"
+  authors:
+    - family-names: Hong
+      given-names: Sunwoo
+      affiliation: Korea Advanced Institute of Science and Technology
+    - family-names: Park
+      given-names: Chan
+      affiliation: Sungkyunkwan University
+    - family-names: Pesaranghader
+      given-names: Ali
+      affiliation: LG Corporation
+  year: 2026

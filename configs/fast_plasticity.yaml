@@ -1,0 +1,11 @@
+eta: 0.05
+decay: 0.001
+eps: 1.0e-6
+norm_cap: 10
+key_dim: 64
+latent_dim: 512
+decisions: 500
+action_repeat: 2
+checkpoint_seed: 1
+model_size: 5
+obs: state
